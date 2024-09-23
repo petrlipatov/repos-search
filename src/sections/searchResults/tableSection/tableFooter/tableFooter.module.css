@@ -1,0 +1,26 @@
+.footer {
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--text-primary-color);
+}
+
+.caption {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.input {
+  all: unset;
+}
+
+.button {
+  all: unset;
+}
+
+.chevronRight {
+  transform: rotate(180deg);
+}

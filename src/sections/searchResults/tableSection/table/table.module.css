@@ -1,0 +1,51 @@
+.table {
+  height: 56px;
+  border-collapse: collapse;
+  font-size: 14px;
+
+  /* подумать куда перенести margins */
+  color: var(--text-primary-color);
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-right: 16px;
+}
+
+.tableCaption {
+  text-align: left;
+  font-size: 48px;
+
+  margin-bottom: 24px;
+}
+
+/* .tableHead {
+} */
+
+.tableRow {
+  height: 56px;
+  text-align: center;
+  text-align: left;
+}
+
+.tableCell {
+  width: 20%;
+  border-bottom: 1px solid #0000001f;
+}
+
+.footer {
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--text-primary-color);
+}
+
+.caption {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.chevronRight {
+  transform: rotate(180deg);
+}
